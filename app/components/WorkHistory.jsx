@@ -1,7 +1,7 @@
 'use client'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { jobhistory } from '../database/jobhistory';
+import { jobHistory } from '../database/jobHistory';
 import Tag_Container from './Tag_Container';
 import Tag_Header from './Tag_Header';
 import { Typography } from "../config/materialComponents"
@@ -35,7 +35,7 @@ const WorkHistory = () => {
                 </Tag_Header>
 
             <div className="border-t-4 mt-3 border-[#bfdbfe] flex flex-col lg:flex-row">
-                {jobhistory.map(( { date, jobTitle, organization, id } ) => (
+                {jobHistory.map(( { date, jobTitle, organization, id } ) => (
                     <div key={id} className="w-80 pt-12 relative text-center px-1">
                         <div className='absolute h-12 border-[#bfdbfe] border-r-4 top-0 text-center right-1/2' />
 

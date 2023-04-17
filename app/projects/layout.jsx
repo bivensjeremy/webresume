@@ -18,6 +18,7 @@ export default function ProjectsLayout({ children }) {
                         <Image
                             src={backIcon}
                             height={20}
+                            alt="back icon"
                         /> Back
                     </NavLink>
 
@@ -29,6 +30,7 @@ export default function ProjectsLayout({ children }) {
                         <Image
                             src={homeIcon}
                             height={20}
+                            alt="home icon"
                         /> Home
                     </NavLink>
                 </div>

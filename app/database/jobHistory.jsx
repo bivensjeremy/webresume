@@ -1,4 +1,4 @@
-export const jobhistory = [
+export const jobHistory = [
     {
         id: 1,
         jobTitle: 'Recruiter, College, Community & External Partnerships',
