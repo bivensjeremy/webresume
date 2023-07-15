@@ -25,6 +25,8 @@ import russellstransportScreen from '../../public/screenshots/russellstransportS
 import zombiemeScreen from '../../public/screenshots/zombiemeScreen.png'
 import piiotaalphaScreen from '../../public/screenshots/piiotaalphaScreen.png'
 import dreamersScreen from '../../public/screenshots/dreamersScreen.png'
+import boutiqueLogo from '../../public/projects/boutique.png'
+import boutiqueScreen from '../../public/screenshots/bivensBoutiqueScreenshot.png'
 
 
 export const portfolioData = [
@@ -235,6 +237,21 @@ export const portfolioData = [
         screenshot: dreamersScreen,
         description: "This project showcases a simple business website and standard features. It is modeled after a Dance and Model studio. All images are template photos found online and belong to their respective owners. The information is also sampled meant as logical placeholders.",
         purpose: "Practice with Tailwind, designs and routing.",
+        stack: [
+            skillsGroup[0].image,
+            skillsGroup[10].image
+        ],
+
+    },
+    {
+        id: 16,
+        icon: boutiqueLogo,
+        title: "Bivens Boutique",
+        link: "https://boutique.bivensblueprint.com",
+        github: "https://github.com/bivensjeremy/bivensboutiqe",
+        screenshot: boutiqueScreen,
+        description: "This project is a redesign of a web store I've made a few times. Initially, it was built using pure React. I've since updated it using Material UI. This version uses Tailwind.",
+        purpose: "To build a large scale project using a different design style and to practice updates from Next 13.",
         stack: [
             skillsGroup[0].image,
             skillsGroup[10].image
